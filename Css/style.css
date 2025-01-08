@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    font-size: 16px;
+    object-fit: cover;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* ------nav ------- */
+
+@media (min-width:992px) {
+    #innerul{
+        width: 700px; display: flex; justify-content: space-around ;align-items: center;
+    }    
+}
+#black{
+    color:#336061;
+}
+
+
+/* ------nav-------- */
+
+/* -----------catories---------- */
+#Categoriesbox{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+@media (min-width:768px) {
+    #Categoriesbox{
+        height: 65px;
+        width: 65px;
+    }
+}
+@media (min-width:768px) {
+    #Categoriesbox{
+        height: 120px;
+        width: 120px;
+    }
+}
+/* ----------------------------- */
+
+/* -----shop by gender--- */
+#genderfont{
+    font-size: 10px;
+}
+@media (min-width:768px) {
+    #genderfont{
+        font-size: 17px;
+    }
+}
+@media (min-width:992px) {
+    #genderfont{
+        font-size: 20px;
+    }
+}
+@media  (min-width:320px) {
+    #boxtab{
+        height: 120px;width:142px;background-color: red; border-radius: 10px;
+    }
+    
+}
+@media  (min-width:768px) {
+    #boxtab{
+        height:200px;width:168px;background-color: red; border-radius: 10px;
+    }
+    
+}
+/* ---------------------- */
+
+/* -----promise------------ */
+
+@media (min-width:320px) {
+    .tabletcarousel{
+        display: none;
+    }
+    #caro-promise{
+        height: 320px;
+    }
+    .desktoppro{
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+   
+    .mobcarosuel{
+        display: none;
+    }
+    .tabletcarousel
+    {
+        display: grid;
+    }
+    #caro-promise{
+        height: 320px;
+    }
+    .desktoppro{
+        display: none;
+    }
+    
+}
+@media (min-width:992px) {
+    .tabletcarousel
+    {
+        display: none;
+    }
+    .desktoppro{
+        display: flex;
+    }
+    .mobcarosuel{
+        display: none;
+    }
+}
+/* ------------------------ */
+
+
+
+/* ------- */
