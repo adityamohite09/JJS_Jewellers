@@ -35,6 +35,14 @@ a{
     height: 70px;
     background-color: white;
 }
+.div.carousel-indicators{
+    color: black;
+    top: 200px;
+}
+.carousel-indicators#indicator:active{
+    color: black;
+    background-color: red;
+}
 
 @media (min-width:768px) {
     .navv{
